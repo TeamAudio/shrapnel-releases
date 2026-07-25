@@ -1,0 +1,14 @@
+# Installers and binaries are distributed as GitHub Release ASSETS, never
+# committed into this repo (keeps it tiny — see timewarp-releases). Anything
+# that lands here by accident is ignored on purpose.
+*.exe
+*.pkg
+*.dmg
+*.zip
+*.vst3
+*.clap
+*.component
+*.app
+*.pdb
+*.dSYM
+*.sha256
