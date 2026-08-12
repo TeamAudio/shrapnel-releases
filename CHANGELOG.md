@@ -2,6 +2,24 @@
 
 All notable public Shrapnel release changes will be documented here.
 
+## 1.0.0-beta.3 - 2026-08-11
+
+### Added
+
+- Windows installer is now code-signed (Azure Artifact Signing + RFC3161
+  timestamp).
+- Master-output WAV recording — bounce the standalone's output to disk.
+- About window showing the version and a link to the online manual (all formats).
+
+### Changed
+
+- License window: clearer demo-mode indicator and a direct purchase link.
+
+### Fixed
+
+- Global physics param sliders now accept manual text entry.
+- Removed a redundant hover tooltip on the empty sandbox.
+
 ## 1.0.0 - Unreleased
 
 Initial release.
