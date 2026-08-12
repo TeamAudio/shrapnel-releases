@@ -2,6 +2,12 @@
 
 All notable public Shrapnel release changes will be documented here.
 
+## 1.0.0-beta.4 - 2026-08-12
+
+### Fixed
+
+- Activation now persists after first attempt.
+
 ## 1.0.0-beta.3 - 2026-08-11
 
 ### Added
