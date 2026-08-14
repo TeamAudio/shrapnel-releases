@@ -2,6 +2,16 @@
 
 All notable public Shrapnel release changes will be documented here.
 
+## 1.0.0-beta.5 - 2026-08-13
+
+### Changed
+
+- Unlicensed demo mode now drops out silently — removed the noise swell and tone.
+
+### Fixed
+
+- MIDI-spawn Note readout no longer shows NaN.
+
 ## 1.0.0-beta.4 - 2026-08-12
 
 ### Fixed
