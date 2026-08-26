@@ -12,8 +12,8 @@ https://github.com/TeamAudio/shrapnel-releases/releases/latest
 
 ## Supported Plugin Formats
 
-- Windows: Standalone, VST3, CLAP
-- macOS: Standalone, VST3, AU, CLAP
+- Windows: Standalone, VST3, CLAP, AAX
+- macOS: Standalone, VST3, AU, CLAP, AAX
 
 ## License
 
