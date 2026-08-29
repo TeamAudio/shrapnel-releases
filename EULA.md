@@ -1,228 +1,296 @@
-End User License Agreement
+# End User License Agreement — Shrapnel
 
-Important – Use of this Software is subject to license restrictions.
-Carefully read this license agreement before using the software.
+**Product:** Shrapnel (audio plug-in software and standalone application)
+**Licensor:** teamaud.io LLC, 611 Cloud Ct., Round Rock, TX 78681, United States
+**Effective date:** September 15, 2026
+**Contact:** support@techaud.io · https://techaud.io
 
-This End User License Agreement (this “Agreement”) is a legal
-agreement between you, either individually or as an authorized
-representative of the company or organization acquiring the license, and
-teamaud.io LLC (“Team Audio”).  THE DOWNLOAD AND USE OF THE SOFTWARE
-INDICATES YOUR COMPLETE AND UNCONDITIONAL ACCEPTANCE OF THE TERMS AND
-CONDITIONS SET FORTH IN THIS AGREEMENT.  If you do not agree to these
-terms and conditions, do not download or otherwise use the Software.
+---
 
+**PLEASE READ THIS END USER LICENSE AGREEMENT ("Agreement" or "EULA") CAREFULLY.**
+By downloading, installing, copying, activating, or otherwise using Shrapnel (the
+"Software"), you agree to be bound by this Agreement. If you do not agree, do not
+download, install, activate, or use the Software, and — subject to Section 9 — you
+may request a refund.
 
+This Agreement is a legal agreement between you (either an individual or a single
+legal entity, "you," "your," or "Licensee") and teamaud.io LLC ("Company,"
+"we," "us," or "Licensor").
 
-1.  	License Grant
+---
 
-a.	The software programs you are installing, downloading, or have
-acquired with this Agreement, including any audio plug-in, updates,
-upgrades, modifications, revisions, copies, online materials and design
-data (the “Software”) are copyrighted, proprietary information of
-Team Audio and its affiliates, who maintain exclusive title to all
-Software and retain all rights not expressly granted by this Agreement.
-Team Audio grants to you, subject to your continued compliance with the
-terms and conditions set forth in this Agreement, a non-exclusive,
-non-transferable, revocable license to use a single copy of the Software
-owned or distributed by Team Audio on up to three (3) computers owned or
-controlled by you in machine readable, object-code form for your
-personal home entertainment and commercial use on a compatible
-electronic device, or for such use otherwise authorized by Team Audio.
+## 1. Definitions
 
-2.	Restrictions and Intellectual Property Ownership
+- **"Software"** means the Shrapnel plug-in and standalone application, in all
+  supported formats (including VST3, CLAP, Audio Unit (AU), AAX, and standalone),
+  together with any bundled content, documentation, updates, and upgrades we provide
+  to you under this Agreement.
+- **"License Key"** means the activation credential issued to you upon purchase.
+- **"Computer"** means a single physical computer, identified by the machine
+  fingerprint described in Section 3.
+- **"Activation"** means the process by which the Software validates your License Key
+  and binds it to a Computer.
+- **"User Output"** means the audio, recordings, sound effects, compositions,
+  projects, and other creative content you produce using the Software.
 
-a.	You may not, without Team Audio’s prior written consent, (i)
-decompile, disassemble or reverse engineer the Software or otherwise
-attempt to gain access to its source code, except to the extent that
-such restrictions are expressly prohibited by law; (ii) copy, offer for
-public display, translate, adapt, modify or otherwise alter the
-Software, or create derivative works thereof, including derivative works
-with respect to artwork contained in the Software, except to the extent
-that such restrictions are expressly prohibited by law; (iii) rent,
-lease, loan, sublicense or distribute the Software, or offer it on a
-pay-per-play, coin-op or other for charge (or free) basis; (iv) use the
-Software to infringe the copyrights or other intellectual property
-rights of others in any way; (v) remove, circumvent, disable, damage or
-otherwise interfere with security-related or limiting features of the
-Software, and/or (vi) modify or delete the copyright and other
-proprietary rights notices on or in the Software.
+## 2. License Grant
 
-b.	The Software, which is copyrighted, including any modifications,
-upgrades, or updates thereto, is the sole and exclusive property of Team
-Audio and is a valuable asset and trade secret of Team Audio.  Team
-Audio retains all ownership and intellectual property rights to the
-Software and to any modifications, upgrades, or updates thereto.  Except
-for the rights granted herein, you shall have no right, title, or
-interest of any kind in or to the Software.
+Subject to your compliance with this Agreement and payment of the applicable license
+fee, Company grants you a **limited, non-exclusive, non-transferable,
+non-sublicensable, perpetual** license to install and use the Software for your
+personal or professional audio-production purposes, subject to termination under
+Section 10.
 
-3.	Additional Restrictions for Demo Version
+**2.1 Number of Computers.** You may activate and use the Software on up to
+**three (3) Computers** that you own or control, for use by you. A license seat is
+consumed **per Computer** (per machine) — not per user account and not per
+installation. Any number of user accounts on a single Computer consume a **single**
+seat. This license is granted to a single person or single legal entity.
 
-If the Software was provided to you for demo use for a limited period of
-time and/or number of uses, you agree not to use the Software beyond the
-expiration or termination of the demo period.  You acknowledge and agree
-that the Software may include code designed to prevent you from
-exceeding these limits, and that such code may remain on your computer
-or device after deletion of the Software to prevent you from installing
-another copy of the Software and repeating the demo.
+**2.2 Permitted Uses.** You may use the Software to create, process, render, and
+export audio content for any lawful purpose, including commercial audio production,
+sound design, music composition, game audio, film and television post-production,
+and personal creative projects.
 
-4.	Term and Termination.
+**2.3 Output Ownership.** All User Output is owned entirely by you. Company claims
+**no ownership, license, royalty, or other interest** in any User Output. You are
+free to use, distribute, sell, license, and otherwise exploit your User Output for
+any lawful purpose, without restriction, additional fee, or attribution to Company.
 
-a. 	This Agreement remains effective until expiration or termination.
-This Agreement will immediately terminate upon notice if you exceed the
-scope of the license granted or otherwise fail to comply with the
-provisions in sections 1, 2, and 3 above.  For any other material breach
-of the Agreement, Team Audio may terminate this Agreement if you are in
-breach and fail to cure the breach within thirty (30) days of written
-notification.  If Software is provided for a limited term use, this
-Agreement will automatically expire at the end of the authorized term.
+## 3. Activation and Machine Identification
 
-b.	Upon termination of this Agreement for any reason, you agree to
-delete from any permanent machine storage (i.e., hard disk) previously
-loaded copies of the Software in all forms.  Upon request of Team Audio,
-you shall certify in writing that all copies of the Software and
-associated documentation have been destroyed or returned to Team Audio.
-The indemnity and limitation of liability obligations hereunder, as well
-as your obligations with respect to confidential treatment of the
-Software and Team Audio’s trade secrets, other intellectual property,
-and proprietary information, shall survive the termination of this
+The Software requires online Activation using your License Key.
+
+- To enforce the license, the Software transmits a machine identifier derived from
+  your Computer's hardware or operating-system identity (on macOS, the platform UUID;
+  on Windows, the OS machine GUID) to Company's activation service, together with the
+  product identity and your License Key. This is used solely to validate your license
+  and manage your seats. See Section 8 (Data Collection and Privacy).
+- Certain events — for example, reinstalling your operating system or making
+  significant hardware changes — may cause a Computer to be recognized as a new
+  Computer and consume an additional activation.
+- If a stable machine identifier cannot be read, Activation may be refused. An
+  already-activated installation is **not** deactivated solely because a later
+  re-check cannot read the identifier.
+- **If you run out of activations** — due to hardware changes, drive failure,
+  reinstallation, or moving to a new machine — contact **support@techaud.io** with
+  the product name and your situation, and we will help restore your access.
+
+## 4. License Restrictions
+
+You may **not**, and may not permit any third party to:
+
+1. Copy, reproduce, distribute, sublicense, rent, lease, lend, sell, resell, or
+   otherwise make the Software available to any third party;
+2. Reverse engineer, decompile, disassemble, or otherwise attempt to derive the
+   source code of the Software, except to the extent this restriction is prohibited
+   by applicable law;
+3. Modify, adapt, translate, or create derivative works of the Software;
+4. Remove, alter, or obscure any proprietary notices, labels, or marks on or in the
+   Software;
+5. Circumvent, disable, or interfere with the License Key, Activation, or any
+   security or license-enforcement mechanism of the Software, **including its
+   demo-mode limitations**;
+6. Use the Software to develop a competing product, or use it in any manner that
+   violates applicable law or is not expressly permitted by this Agreement.
+
+## 5. Ownership and Intellectual Property
+
+**5.1** The Software is **licensed, not sold.** Company and its licensors retain all
+right, title, and interest in and to the Software — including its code, structure,
+organization, design, user interface, and documentation, and all intellectual
+property rights therein — which are protected by copyright, trademark, and other
+laws. Your license confers no title to or ownership in the Software. All rights not
+expressly granted to you are reserved by Company. This Agreement grants you no rights
+to Company's trademarks or service marks. The Software is a valuable asset and trade
+secret of Company.
+
+**5.2 Third-Party Components.** The Software incorporates certain third-party and
+open-source components used under their respective licenses. A list of these
+components and their license terms is provided with the Software in an accompanying
+notices file. Your use of those components is governed by their respective licenses.
+
+**5.3 Confidentiality.** You will not, directly or indirectly, copy the structure,
+sequence, or organization of the Software, nor copy any portion of the Software or its
+documentation to produce software programs that are substantially similar to the
+Software.
+
+## 6. Included Content
+
+**6.1** The Software includes a small amount of original preset and sample content
+created by and owned by Company ("Included Content") — for v1.0, a single default
+preset together with a handful of impact-sample variations. The Included Content is
+original, fully cleared, and provided **royalty-free**. You may use the Included
+Content, and any audio you create with it, for any lawful purpose without
+restriction, additional fee, or attribution to Company.
+
+**6.2** Audio rendered or generated through the Software, including audio made using
+Included Content, is User Output under Section 2.3 and belongs to you.
+
+## 7. Updates and Support
+
+**7.1** Company may, at its sole discretion, provide updates, patches, bug fixes,
+upgrades, or new versions ("Updates"). Any Updates provided are governed by this
+Agreement unless accompanied by a separate license. Company is under no obligation
+to provide Updates.
+
+**7.2** Company may, at its sole discretion, provide technical support. The scope,
+availability, and duration of any support are determined by Company and may change
+or be discontinued at any time without notice.
+
+## 8. Data Collection and Privacy
+
+**8.1** The only information the Software transmits is what is required to activate
+and validate your license: (a) a machine identifier derived from your Computer (on
+macOS, the platform UUID / IOPlatformUUID; on Windows, the OS machine GUID), (b) your
+License Key, and (c) the product identity. This is sent to Company's activation
+service for the sole purpose of validating your license and managing your seats. As
+with any internet connection, your IP address is necessarily visible to the receiving
+service and may be processed or logged incident to the request.
+
+**8.2** The Software does **not** collect or transmit your audio, your projects or
+files, or any usage analytics, telemetry, or behavioral or tracking data.
+
+**8.3** A machine identifier may constitute personal data under applicable law. The
+information described in Section 8.1 is handled in accordance with the Tech Audio
+Privacy Policy at https://techaud.io/privacy-policy, which is incorporated into this
+Agreement by reference.
+
+## 9. Refunds
+
+Purchases are processed through our checkout provider, SendOwl, and are subject to its
+terms in addition to this Agreement.
+
+Company offers a **14-day return period.** To request a refund, email
+**support@techaud.io** with the product name and the reason for your request.
+
+Consumers in some jurisdictions (including the EU and UK) may have additional
+statutory rights, including a right of withdrawal. Nothing in this Agreement or this
+policy limits any consumer right that cannot be limited under applicable law.
+
+## 10. Term and Termination
+
+This Agreement is effective from the date you install or use the Software and
+continues until terminated. It terminates automatically, without notice, if you exceed
+the scope of the license granted in Section 2 or breach Section 4 (License
+Restrictions) or Section 5 (Ownership and Intellectual Property). For any other
+material breach, Company may terminate this Agreement if you fail to cure the breach
+within thirty (30) days of written notice. Upon termination, you must cease all use of
+the Software and destroy all copies in your possession or control and, if Company
+requests, certify in writing that you have done so. Sections 2.3, 4, 5, 6, 8, and
+11–17 survive termination.
+
+## 11. Disclaimer of Warranties
+
+THE SOFTWARE IS PROVIDED **"AS IS" AND "AS AVAILABLE," WITHOUT WARRANTY OF ANY KIND.**
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, COMPANY DISCLAIMS ALL WARRANTIES,
+WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WITHOUT LIMITATION THE IMPLIED
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND
+NON-INFRINGEMENT. COMPANY DOES NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR
+REQUIREMENTS, THAT ITS OPERATION WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT DEFECTS
+WILL BE CORRECTED.
+
+YOU ACKNOWLEDGE THAT AUDIO SOFTWARE MAY INTERACT UNPREDICTABLY WITH CERTAIN HARDWARE
+CONFIGURATIONS, OPERATING SYSTEMS, HOST APPLICATIONS, AND THIRD-PARTY PLUG-INS.
+COMPANY IS NOT RESPONSIBLE FOR COMPATIBILITY ISSUES ARISING FROM SUCH INTERACTIONS.
+
+Some jurisdictions do not allow the exclusion of implied warranties, so some of the
+above exclusions may not apply to you. You may have other rights that vary by
+jurisdiction.
+
+## 12. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL COMPANY OR ITS
+LICENSORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE
+DAMAGES, OR FOR ANY LOSS OF PROFITS, DATA, GOODWILL, USE, OR BUSINESS INTERRUPTION,
+ARISING OUT OF OR RELATED TO THIS AGREEMENT OR THE SOFTWARE, WHETHER IN CONTRACT,
+TORT, OR OTHERWISE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+COMPANY'S TOTAL AGGREGATE LIABILITY ARISING OUT OF OR RELATED TO THIS AGREEMENT WILL
+NOT EXCEED THE AMOUNT YOU ACTUALLY PAID FOR THE SOFTWARE. IF YOU PAID NO FEE FOR THE
+SOFTWARE (FOR EXAMPLE, WHILE USING IT IN DEMO MODE), COMPANY WILL HAVE NO LIABILITY TO
+YOU WHATSOEVER.
+
+Some jurisdictions do not allow the exclusion or limitation of certain damages, so
+some of the above may not apply to you. Nothing in this Agreement limits liability
+that cannot be limited under applicable law.
+
+## 13. Indemnity
+
+**13.1** If all or part of the Software is held, or is believed by Company, to infringe
+any patent, copyright, or other intellectual property right of a third party, Company
+may, at its option and expense, (a) modify the Software to be non-infringing, or (b)
+obtain for you a license to continue using the Software. If neither option is
+commercially feasible, Company may require you to return the infringing Software and
+all rights to it, after which you may terminate this Agreement on ten (10) days'
+written notice. This Section states Company's entire liability and your exclusive
+remedy for infringement.
+
+**13.2** You will defend and indemnify Company and its affiliates against any claim
+incurred by, borne by, or asserted against them that relates to or results from (a)
+your use of the Software, (b) any intentional or willful misconduct or negligence by
+you, or (c) any breach by you of a representation, covenant, or warranty in this
 Agreement.
 
-5. 	Disclaimer of Warranties.
+**13.3** You are solely responsible for any telecommunications or connectivity charges
+incurred through your use of the Software.
 
-TEAM AUDIO DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS OR IMPLIED,
-INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
-PARTICULAR PURPOSE.  TEAM AUDIO MAKES NO WARRANTY THAT ANY SOFTWARE WILL
-PERFORM ERROR-FREE OR UNINTERRUPTED, OR THAT ALL ERRORS THEREIN CAN OR
-WILL BE CORRECTED.  TEAM AUDIO FURTHER DISCLAIMS ANY IMPLIED WARRANTIES
-OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND
-NON-INFRINGEMENT AND ANY WARRANTIES ARISING FROM COURSE OF PERFORMANCE,
-COURSE OF DEALING OR USAGE OF TRADE.  IN ADDITION, YOU ACKNOWLEDGE THAT
-TEAM AUDIO IS NOT RESPONSIBLE FOR THE INTERNET OR WHETHER IT SHOULD
-CONTINUE TO EXIST IN ITS PRESENT FORM OR WHETHER OR NOT A GOVERNMENT OR
-GOVERNMENTAL AGENCY, EITHER FOREIGN OR DOMESTIC, WILL CONTROL, REGULATE
-OR DISBAND THE INTERNET.  USE OF THE INTERNET IS AT YOUR SOLE RISK.
+## 14. License Transfer
 
-6.	Indemnity; Responsibility
+This license is personal to you and **may not be transferred, resold, reassigned, or
+sublicensed** to any other person or entity.
 
-a.	In the event that some or all of the Software is held or is believed
-by Team Audio to infringe upon patent or copyrights of third parties,
-Team Audio shall have the option, at its expense: (i) to modify the
-Software to be non-infringing; or (ii) to obtain for you a license to
-continue using the Software.  If it is not commercially feasible to
-perform either of the above options, then Team Audio may require from
-you return of the infringing Software and all rights thereto.  Upon
-return of the infringing Software to Team Audio, you may terminate the
-Agreement with ten (10) days’ written notice.  This subsection sets
-forth Team Audio’s entire liability and exclusive remedy for
-infringement.
+## 15. Export and Compliance
 
-b.	You will defend and indemnify Team Audio and its affiliates against
-any claim incurred by, borne by or asserted against Team Audio or its
-affiliates that relates to or results from (i) your use of the Software,
-(ii) any intentional or willful conduct or negligence by you or (iii)
-any breach of an applicable representation, covenant or warranty
-contained herein.
+You represent that you are not located in, and will not use or export the Software in
+violation of, any applicable export-control or sanctions laws, and that you will not
+use the Software for any purpose prohibited by such laws, including nuclear, chemical,
+or biological weapons proliferation. You agree to comply with all laws and regulations
+applicable to your use of the Software.
 
-c.	In no event shall Team Audio be held responsible for any damage in
-the event your passwords are disclosed, including but limited to any
-damage that occurs to your account, your characters or your scores.
-Further, Team Audio shall not be liable for any financial or emotional
-damage or distress you may suffer and/or for subsequent loss or damage
-to your Account, characters, scores as a result of the disclosure of
-your passwords to a third party.  You shall not disclose your passwords
-to any third party or allow anyone to use your password to access your
-account, or to use the Software.  It is also prohibited to obtain,
-attempt to obtain, use, or attempt to use the password of anyone else.
+## 16. Governing Law and Dispute Resolution
 
-d. 	You are solely responsible for any and all telecommunications or
-other connectivity charges incurred through your use of the application.
+This Agreement is governed by the laws of the **State of Texas, United States**,
+without regard to its conflict-of-laws rules. Any legal action or proceeding arising
+under this Agreement will be brought exclusively in the state or federal courts
+located in **Travis County, Texas**, and the parties consent to the personal
+jurisdiction and venue therein. The United Nations Convention on Contracts for the
+International Sale of Goods does not apply.
 
-7.	Confidentiality
+## 17. General
 
-You agree that you will not, directly or indirectly, copy the structure,
-sequence, or organization of the Software, nor will you copy any portion
-of the Software or related documentation to produce software programs
-that are substantially similar to the Software.
+- **Entire Agreement.** This Agreement, together with the Privacy Policy and any
+  terms presented at purchase, is the entire agreement between you and Company
+  regarding the Software and supersedes all prior understandings.
+- **Severability.** If any provision is held unenforceable or invalid, it will be
+  modified to the minimum extent necessary to make it enforceable, and the remaining
+  provisions remain in full force.
+- **No Waiver.** Company's failure to enforce any provision is not a waiver of it.
+- **Assignment.** You may not assign this Agreement except as permitted in Section 14.
+  Company may assign it freely.
+- **Changes.** Company may update this Agreement for future versions of the Software;
+  the version accompanying your installed release governs your use of that release.
+- **Limitation of Actions.** Except for actions relating to non-payment or to
+  infringement of a party's intellectual property rights, no action arising out of
+  this Agreement, regardless of form, may be brought by either party more than
+  two (2) years after the cause of action has accrued.
+- **Headings.** Section headings are for convenience only and do not affect the
+  interpretation of this Agreement.
 
-8. LIMITATION OF LIABILITY
+**BY DOWNLOADING, INSTALLING, ACTIVATING, OR USING THE SOFTWARE, YOU ACKNOWLEDGE THAT
+YOU HAVE READ THIS AGREEMENT, UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS AND
+CONDITIONS.**
 
-EXCEPT WHERE THIS EXCLUSION OR RESTRICTION OF LIABILITY WOULD BE VOID OR
-INEFFECTIVE UNDER APPLICABLE LAW, IN NO EVENT WILL TEAM AUDIO BE LIABLE
-FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES, OR
-DAMAGES FOR LOSS OF PROFITS, REVENUE, DATA, OR USE, INCURRED BY YOU OR
-ANY THIRD PARTY, WHETHER IN AN ACTION IN CONTRACT OR TORT, EVEN IF TEAM
-AUDIO OR ANY OTHER PERSON HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
-DAMAGES.  TEAM AUDIO’S LIABILITY FOR DAMAGES HEREUNDER SHALL IN NO
-EVENT EXCEED THE AMOUNT OF FEES PAID BY YOU FOR THE SOFTWARE OR SERVICE
-GIVING RISE TO THE CLAIM.  IN THE CASE WHERE NO AMOUNT WAS PAID, TEAM
-AUDIO SHALL HAVE NO LIABILITY FOR ANY DAMAGES WHATSOEVER.
+## 18. Contact
 
-9.	Assignment; Jurisdiction.
+teamaud.io LLC — 611 Cloud Ct., Round Rock, TX 78681, United States
+Support: support@techaud.io · Web: https://techaud.io
 
-This Agreement will be binding upon, and will inure to the benefit of,
-the permitted successors and assigns of each party hereto.  You may not
-assign, delegate, transfer, or otherwise convey this Agreement, or any
-of its rights hereunder, to any entity without the prior written consent
-of Team Audio, which consent Team Audio may give or withhold in its sole
-discretion, and any attempted assignment or delegation without such
-consent shall be void.  This Agreement, and all matters arising out of
-or relating to this Agreement, shall be governed by the laws of the
-State of Texas, United States of America.  Any legal action or
-proceeding relating to this Agreement shall be instituted in any state
-or federal court in Travis County, Texas, United States of America.
-Team Audio and you agree to submit to the jurisdiction of, and agree
-that venue is proper in, the aforesaid courts in any such legal action
-or proceeding.
+© teamaud.io LLC. All rights reserved.
 
-10.	Severability; Waiver
+---
 
-In the event any provision of this Agreement is held to be invalid or
-unenforceable, the remaining provisions of this Agreement will remain in
-full force.  The waiver by either party of any default or breach of this
-Agreement shall not constitute a waiver of any other or subsequent
-default or breach.  Except for actions for nonpayment or breach of
-either party’s intellectual property rights, no action, regardless of
-form, arising out of this Agreement may be brought by either party more
-than two years after the cause of action has accrued.  The headings
-appearing in this Agreement are inserted for convenience only, and will
-not be used to define, limit or enlarge the scope of this Agreement or
-any of the obligations herein.
-
-11.	Interpretation; Compliance.
-
-This Agreement constitutes the complete agreement between the Parties
-and supersedes all previous and contemporaneous agreements, proposals,
-or representations, written or oral, concerning the subject matter of
-this Agreement.  This Agreement may not be modified or amended except in
-a writing signed by you and Team Audio; no other act, document, usage,
-or custom shall be deemed to amend or modify this Agreement.  It is
-expressly agreed that the terms and conditions of this Agreement
-supersede the terms of any purchase order.  Each party agrees to comply
-with all relevant export laws and regulations of the United States and
-the country or territory in which the Services are provided (“Export
-Laws”) to assure that neither any deliverable, if any, nor any direct
-product thereof is (a) exported, directly or indirectly, in violation of
-Export Laws or (b) intended to be used for any purposes prohibited by
-the Export Laws, including without limitation nuclear, chemical, or
-biological weapons proliferation.  Each party agrees to comply with all
-federal, state and local laws and regulations applicable to this
-Agreement.  Each party represents and warrants that it is qualified to
-do business in the geographies in which it will perform its obligations
-under this Agreement, and will obtain all necessary licenses and
-permits, and satisfy any other legal, regulatory and administrative
-requirements, necessary to its performance hereunder.
-
-13.	Notices; How to Contact Team Audio
-
-The Software is made available to you by Team Audio, LLC located at 611
-Cloud Ct., Round Rock, TX 78681 (or at an updated address posted online
-at   HYPERLINK "https://teamaud.io/"  https://teamaud.io/ ).  If you
-have any questions about the Software, you may contact Team Audio at
-support@techaud.io .
-
-YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT, YOU UNDERSTAND THIS
-AGREEMENT, AND YOU UNDERSTAND THAT, BY CONTINUING THE DOWNLOAD OR
-INSTALLATION OF THE SOFTWARE, BY LOADING OR RUNNING THE SOFTWARE, OR BY
-PLACING OR COPYING THE SOFTWARE ONTO YOUR COMPUTER OR MOBILE DEVICE HARD
-DRIVE, COMPUTER RAM, OR OTHER STORAGE, YOU AGREE TO BE BOUND BY THE
-TERMS AND CONDITIONS OF THIS AGREEMENT.
+*VST is a trademark of Steinberg Media Technologies GmbH.*
+*Audio Unit is a trademark of Apple Inc.*
+*AAX is a trademark of Avid Technology, Inc.*
+*CLAP is an open standard by the free-audio community.*
