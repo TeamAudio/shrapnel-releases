@@ -2,6 +2,29 @@
 
 All notable public Shrapnel release changes will be documented here.
 
+## 1.0.0-rc.1 - 2026-08-30
+
+### Added
+
+- AAX (Pro Tools) plugin format — code-signed and validated on Windows and macOS.
+- Installer now shows the EULA and requires acceptance before installing, and
+  bundles third-party license notices.
+- Init (blank slate) and a bundled factory default preset, loaded on first launch.
+- Window Size preference to set the default editor size.
+
+### Changed
+
+- Factory default preset is now "Plink" (was "Glass Tink").
+
+### Fixed
+
+- Spawner no longer treats Ctrl+click as a right-click; right-drag now aims the
+  spawner while Ctrl-spawning; the spawner glyph scales with window size; and on
+  macOS the Cmd key no longer sticks the spawner.
+- MIDI-spawn Note readout shows the learned note instead of always C4.
+- Pro Tools Dynamic Plug-In Processing no longer freezes the sandbox.
+- Window-sizing/clipping fixes on Bitwig (CLAP) and Pro Tools (AAX).
+
 ## 1.0.0-beta.5 - 2026-08-13
 
 ### Changed
