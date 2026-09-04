@@ -2,6 +2,12 @@
 
 All notable public Shrapnel release changes will be documented here.
 
+## 1.0.0 - 2026-09-03
+
+- Initial release of Shrapnel.
+- Collision based sound design tool.
+- Supports VST3, AU, AAX, CLAP, Standalone.
+
 ## 1.0.0-rc.1 - 2026-08-30
 
 ### Added
