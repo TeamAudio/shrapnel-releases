@@ -2,6 +2,48 @@
 
 All notable public Shrapnel release changes will be documented here.
 
+## 1.0.1 - 2026-09-21
+
+### Added
+
+- Advanced-mode readouts that are being reshaped by the Basic-mode knobs are
+  now highlighted, with a hover receipt naming the knob responsible and its
+  net effect (e.g. "Basic Mode Pitch Knob: +7.0 st"). Covers Pitch/Volume on
+  sampler, granular and audio-input slots, and the spawn rate/amount, damping
+  and velocity sliders driven by Amount/Spread.
+- "BASIC MODS" chip at the top of the collider panel, visible in both Basic and
+  Advanced modes, lists the engaged knobs and resets them all in one click
+  (undoable).
+- Basic-mode knobs glow with a halo while they're off their default.
+
+### Changed
+
+- Links to techaud.io opened from the plugin (manual, product page, purchase)
+  now carry UTM tags so in-app visits can be told apart from organic traffic.
+
+### Fixed
+
+- Windows: the editor opened clipped to the top-left with blank space to the
+  right and below in Ableton Live on 125%/150% display scaling, and only
+  recovered after a maximize/restore.
+- Windows: VST3/CLAP editor size is now correct in DPI-aware hosts (e.g.
+  REAPER) at 125%/150% display scaling.
+- Windows: opening Shrapnel in a second host while another host already had it
+  open (e.g. REAPER after Live) showed a blank editor for the life of that
+  process. Also affected Shrapnel alongside other WebView-based plugins.
+- The "+ Add MSEG" and "+ Add Spawner Motion" buttons appeared to do nothing
+  when the window was maximized or fullscreen on a large display (e.g. 4K).
+  Their menus were opening off-screen; they now drop directly under the button
+  at any window size.
+- Sound slots appeared to vanish and the properties panel went blank after
+  undoing a collider add, redoing a delete, or loading a project saved with a
+  stale collider selection.
+- Granular transient mode only ever fired from the first 128 detected markers,
+  so on a file with many transients grains clustered near the start while
+  markers were drawn across the whole waveform. The limit is now 1024, and a
+  file with more than that uses an evenly spaced subset spanning the whole
+  file. The markers drawn are now exactly the ones that can fire.
+
 ## 1.0.0 - 2026-09-03
 
 - Initial release of Shrapnel.
