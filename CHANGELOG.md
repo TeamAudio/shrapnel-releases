@@ -2,6 +2,50 @@
 
 All notable public Shrapnel release changes will be documented here.
 
+## 1.0.2 - 2026-10-05
+
+### Added
+
+- Shrapnel now tells you when a newer version is available: a small notice
+  appears in the top-right corner of the editor and links to the product page.
+  It checks once per session and stays quiet when you're offline.
+- Range sliders: double-click either number in the readout to type a value.
+  Units are understood (e.g. `250ms`, `1.2s`, `2kHz`, `6dB`, `7st`).
+- Hold Shift while dragging a slider or range handle for fine adjustment.
+- AIFF and AIFC files can now be loaded as samples and granular sources.
+- Pro Tools: Shrapnel can now be inserted on mono tracks (mono in, stereo out).
+
+### Changed
+
+- Granular Transient mode now works inside the position selection. Transient is
+  an on/off toggle; each hit picks from the markers inside the selection, and
+  markers outside it are drawn dimmed. Presets saved in Transient mode behave
+  as they did before.
+- Spawner motion Freq, and granular Attack, Hold and Decay, now give more of
+  their travel to the low end, so short and slow settings are easier to dial
+  in. Saved values are unchanged.
+
+### Fixed
+
+- Granular Transient mode placed dozens of markers on low or rumbly hits (kicks,
+  explosions) and only one on bright ones, so grains favored bass-heavy
+  material. Each hit now gets one marker. Markers are re-detected when a
+  preset or project loads, so existing Transient-mode patches may trigger a
+  little differently.
+- At high gravity with large audio buffer sizes, resting particles kept
+  bouncing and never settled. Physics now runs at a fixed rate whatever the
+  buffer size.
+- In hosts that stop processing while transport is stopped or the plugin is
+  bypassed (e.g. Soundminer VST Rack, or REAPER with "Run FX when stopped"
+  off), presets loaded only partway and "+ Collider" did nothing until
+  playback started.
+- With a few hundred samples loaded, the Sample Groups list went blank, new
+  groups didn't appear, and groups couldn't be assigned.
+- Saving a preset with audio deleted any sample group not yet assigned to a
+  collider, both from the file and from the current session.
+- Long sample file names pushed the sample list and its buttons past the
+  edge of the Sample Groups window.
+
 ## 1.0.1 - 2026-09-21
 
 ### Added
