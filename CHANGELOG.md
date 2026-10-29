@@ -2,6 +2,57 @@
 
 All notable public Shrapnel release changes will be documented here.
 
+## 1.1.0 - 2026-10-27
+
+### Added
+
+- Factory presets. The preset menu now has a Factory section, with presets
+  organized into folders, above your own User presets. Hovering a preset shows
+  its author and description. The full Shrapnel Factory Pack (100 presets) is a
+  separate free download. Factory presets load in licensed copies of Shrapnel;
+  in demo mode only Plink_01 loads.
+- Preset info panel: shows the current preset's title, author and description,
+  and lets you edit them. Changing the title renames your preset file.
+- Startup Preset in Preferences: choose what new instances load: the default
+  (Plink_01), Init, or any factory or user preset.
+- Granular: a play button next to Browse previews the source file. Hovering the
+  file name shows its full name.
+- Pitch snapping has a Key setting: a key for MIDI slots, and a semitone offset
+  for sampler, granular and audio-input slots.
+- Preferences → Audio Cache shows how much space extracted preset audio uses,
+  and can clear it.
+
+### Changed
+
+- Spawn Rate now goes down to 0.1 Hz (one spawn every 10 seconds), and its
+  slider is log-scaled so slow rates are easy to set.
+- Max Voices now also applies with OVPP on, and stolen voices fade out over the
+  collider's Fade time instead of cutting off.
+- Vel Scale can now go all the way to 0, so every hit plays at full volume
+  regardless of speed.
+- Sample group files can be up to 120 seconds long (was 30). Longer files are
+  cut off at 120 seconds and shown in red in the Sample Groups window.
+- Loading a preset no longer changes your own settings, such as tooltips, glow
+  or stats.
+- Audio extracted from presets is now stored in the system cache folder and
+  shared between presets that use the same file. Projects and presets from 1.0.x
+  still find their audio, and any missing audio is restored automatically from
+  its preset.
+- Preset names must use plain (ASCII) characters that are valid on both Windows
+  and macOS.
+
+### Fixed
+
+- With pitch snapping on, colliders with different pitch ranges played in
+  different keys, and some ranges were detuned by half a semitone.
+- Deleting or replacing a soloed collider or sound slot left everything else
+  silent, with nothing left to un-solo.
+- Loading a preset while sounds were playing let the old preset's notes and
+  voices ring on into the new one.
+- A collider over its Max Voices limit stayed over it under steady hits.
+- Bypassing a filter MSEG left the filter running at its default cutoff.
+- The preset menu came up empty once a library grew large enough.
+
 ## 1.0.2 - 2026-10-05
 
 ### Added
