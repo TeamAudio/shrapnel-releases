@@ -2,7 +2,7 @@
 
 **Product:** Shrapnel (audio plug-in software and standalone application)
 **Licensor:** teamaud.io LLC, 611 Cloud Ct., Round Rock, TX 78681, United States
-**Effective date:** September 15, 2026
+**Effective date:** October 27, 2026
 **Contact:** support@techaud.io · https://techaud.io
 
 ---
@@ -23,7 +23,8 @@ legal entity, "you," "your," or "Licensee") and teamaud.io LLC ("Company,"
 
 - **"Software"** means the Shrapnel plug-in and standalone application, in all
   supported formats (including VST3, CLAP, Audio Unit (AU), AAX, and standalone),
-  together with any bundled content, documentation, updates, and upgrades we provide
+  together with any bundled or separately delivered content (including Factory
+  Content), documentation, updates, and upgrades we provide
   to you under this Agreement.
 - **"License Key"** means the activation credential issued to you upon purchase.
 - **"Computer"** means a single physical computer, identified by the machine
@@ -115,17 +116,39 @@ sequence, or organization of the Software, nor copy any portion of the Software 
 documentation to produce software programs that are substantially similar to the
 Software.
 
-## 6. Included Content
+## 6. Factory Content
 
-**6.1** The Software includes a small amount of original preset and sample content
-created by and owned by Company ("Included Content") — for v1.0, a single default
-preset together with a handful of impact-sample variations. The Included Content is
-original, fully cleared, and provided **royalty-free**. You may use the Included
-Content, and any audio you create with it, for any lawful purpose without
-restriction, additional fee, or attribution to Company.
+**6.1 Factory Content.** The Software includes preset and audio sample content,
+including the Shrapnel Factory Preset Pack, which may be delivered with the Software
+or by a separate installer ("Factory Content"). Factory Content consists of preset
+configurations ("Factory Presets") and the audio recordings embedded in them
+("Factory Recordings"). Factory Content is owned by Company and is part of the
+Software for the purposes of this Agreement.
 
-**6.2** Audio rendered or generated through the Software, including audio made using
-Included Content, is User Output under Section 2.3 and belongs to you.
+**6.2 Permitted Use.** With a validly licensed copy of the Software, you may use
+Factory Content to create User Output, royalty-free and without attribution, for any
+lawful purpose, including commercial music, sound design, game, film, and broadcast
+work. Without a license, you may download and install Factory Content only for
+demo and trial use of the Software.
+
+**6.3 Factory Recordings.** Factory Recordings are protected by copyright law. You
+may not extract, distribute, sell, sublicense, or
+otherwise make available Factory Recordings, whether original or modified, on their
+own, individually or in a bundle, or as part of a sample library, sound bank,
+preset or preset collection, or any similar product. Nor may you use the Software to render or record output whose sole
+or primary purpose is to reproduce or isolate Factory Recordings in substantially
+unaltered form, as a way around this restriction. This does not restrict User Output
+that incorporates Factory Recordings as part of a larger or distinctly transformed
+work.
+
+**6.4 Your Presets.** With a validly licensed copy of the Software, you may modify
+Factory Presets, including the template presets
+that contain no recordings, and use them as the basis for your own presets. Presets
+you create are User Output. You may distribute, sell, or include them with your own
+products (for example, as part of a sound library), provided they contain no Factory
+Recordings and you hold the rights to any audio they do contain.
+
+**6.5** User Output made with Factory Content belongs to you under Section 2.3.
 
 ## 7. Updates and Support
 
@@ -140,21 +163,39 @@ or be discontinued at any time without notice.
 
 ## 8. Data Collection and Privacy
 
-**8.1** The only information the Software transmits is what is required to activate
-and validate your license: (a) a machine identifier derived from your Computer (on
-macOS, the platform UUID / IOPlatformUUID; on Windows, the OS machine GUID), (b) your
-License Key, and (c) the product identity. This is sent to Company's activation
-service for the sole purpose of validating your license and managing your seats. As
-with any internet connection, your IP address is necessarily visible to the receiving
-service and may be processed or logged incident to the request.
+**8.1** The Software transmits information only in the cases below.
+
+(a) **License activation and validation.** To activate and validate your license, the
+Software sends (i) a machine identifier derived from your Computer (on macOS, the
+platform UUID / IOPlatformUUID; on Windows, the OS machine GUID), (ii) your License
+Key, and (iii) the product identity to Company's activation service, for the sole
+purpose of validating your license and managing your seats.
+
+(b) **Update check.** Once per session, when the Software's editor is first opened,
+the Software sends an anonymous request to GitHub (operated by GitHub, Inc.) to find
+out whether a newer version of the Software has been published. The request contains
+no machine identifier, License Key, account information, or other information about
+you, your Computer, or your use of the Software. If a newer version is available, the
+Software displays a notice. Nothing is downloaded or installed automatically.
+
+(c) **Website links.** When you click a link in the Software to a Company web page,
+the page opens in your web browser, and the link includes tags telling Company's
+website that the visit came from the Software, which link was clicked, and whether
+the Software was in demo mode or licensed. The link contains no machine identifier,
+License Key, or other information about you.
+
+As with any internet connection, your IP address is necessarily visible to the
+receiving service (Company's activation service or website, or GitHub) and may be
+processed or logged incident to the request. GitHub's handling of that data is
+governed by GitHub's own privacy statement.
 
 **8.2** The Software does **not** collect or transmit your audio, your projects or
 files, or any usage analytics, telemetry, or behavioral or tracking data.
 
 **8.3** A machine identifier may constitute personal data under applicable law. The
-information described in Section 8.1 is handled in accordance with the Tech Audio
-Privacy Policy at https://techaud.io/privacy-policy, which is incorporated into this
-Agreement by reference.
+information described in Sections 8.1(a) and 8.1(c) is handled in accordance with the
+Tech Audio Privacy Policy at https://techaud.io/privacy-policy, which is incorporated
+into this Agreement by reference.
 
 ## 9. Refunds
 
