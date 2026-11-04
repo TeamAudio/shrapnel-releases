@@ -2,6 +2,44 @@
 
 All notable public Shrapnel release changes will be documented here.
 
+## 1.1.1 - 2026-11-04
+
+### Added
+
+- Killswitch: stops everything at once. It clears the particles in flight,
+  ends held MIDI notes and fades out all sounding voices over Kill Fade
+  (0-5 s, default 2 s; 0 cuts instantly). Fire it from the KILLSWITCH button
+  under the sandbox, or from its own MIDI note or CC (with Learn) in
+  Settings → MIDI.
+- Release Kills Sound: releasing the MIDI Spawn note or CC fires the
+  Killswitch, so spawning can work as a gate. New hits during the fade still
+  play.
+- MIDI Spawn can be triggered from a CC, such as a sustain pedal: it fires
+  while the CC is at 64 or above. The CC number can be typed or learned; Learn
+  accepts either a note or a CC.
+- Preferences: choose where User Presets and the Audio Cache are stored. Each
+  has Change…, Default and Show. Changing a location doesn't move existing
+  files; the cache rebuilds itself as presets load.
+- The Factory Pack installer (now 1.0.1) lets you choose where the pack is
+  installed, including another drive. The presets themselves are unchanged.
+
+### Changed
+
+- The Audio Cache takes about half the space it did, and preset audio is
+  extracted much faster: audio from packed presets is now cached as FLAC
+  instead of WAV. Existing cached files keep working; Clear removes them.
+- The MIDI Spawn section of Settings is now called MIDI and also holds the
+  Killswitch settings.
+
+### Fixed
+
+- Clearing the Audio Cache deleted the cache folder's link when it had been
+  linked to another drive, so later presets extracted to the system drive
+  again.
+- Small or thin colliders could be resized but not moved.
+- Changing the MIDI Spawn note, or turning MIDI Spawn off, while the note was
+  held could leave the spawner firing.
+
 ## 1.1.0 - 2026-10-27
 
 ### Added
