@@ -3,7 +3,7 @@
 This repository hosts official public installers for Shrapnel by Tech Audio.
 
 For product information, documentation, and support, visit:
-https://techaudio.io/projects/shrapnel
+https://techaud.io/projects/shrapnel
 
 ## Downloads
 
