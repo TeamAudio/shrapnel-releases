@@ -2,6 +2,16 @@
 
 All notable public Shrapnel release changes will be documented here.
 
+## 1.1.2 - 2026-11-04
+
+### Fixed
+
+- Windows: pressing the space bar while Shrapnel's window had focus could
+  freeze Ableton Live. Space now starts and stops the transport as expected.
+
+This is a bug-fix release. For what's new in 1.1, see the
+[1.1.1 release notes](https://github.com/TeamAudio/shrapnel-releases/releases/tag/v1.1.1).
+
 ## 1.1.1 - 2026-11-04
 
 ### Added
