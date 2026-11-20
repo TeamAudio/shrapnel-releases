@@ -2,6 +2,57 @@
 
 All notable public Shrapnel release changes will be documented here.
 
+## 1.2.0 - 2026-11-23
+
+### Added
+
+- Local gravity: any collider can pull particles toward it or push them away.
+  Turn on Gravity in the collider's properties and set Amount, Reach and Spin.
+  A glow shows the pull and a faint line marks its reach. On a trigger zone,
+  particles swing through the center or orbit, and Spin holds them in a swirl.
+- Speed and size mapping: a range can pick each hit's value from the
+  particle's speed or size instead of at random. Click the icon at the end of
+  the row to choose the source and set Amount, Range, Jitter and Curve. On
+  Volume and Pitch (Sample Group, Granular and Audio Input), the Granular
+  Attack, Hold and Decay, and each filter's Freq and Q.
+- MSEG Follow: with Follow on for an envelope, each sound keeps reading the
+  curve as its particle moves, so its pitch, volume, pan or filter changes
+  while it sounds. Works on Sample Group, Granular and Audio Input sounds.
+  With Pitch Snap on, a followed pitch steps through the notes of the slot's
+  scale instead of gliding. Dots on the curve show the sounds that are
+  following it.
+- MSEG envelopes can read the sandbox from bottom to top (Y) instead of left
+  to right (X), set per envelope.
+- Full sandbox view: the button in the sandbox's top-right corner enlarges the
+  sandbox over the rest of the interface. The Collider, Preset, MSEG, Stats
+  and Physics panels open as floating windows from the bar along the bottom.
+- Output strip beside the stats: a level meter, a limiter (LIM) and the output
+  gain. The limiter is on in Init; presets and projects saved before 1.2 load
+  with it off.
+- Attack and Decay shapes (Log, Linear, Sqrt or Square) on the Granular and
+  Audio Input envelopes, picked from the curve icon in front of each slider.
+- Sample Groups: a play button on each sample previews it.
+- Range sliders show a fading tick at the value each hit picked, and the Size
+  Filter shows the size of every particle that hits the collider.
+- A Sample Group slot can be set back to None.
+
+### Changed
+
+- The filter Rand and Map modes are replaced by the mapping icon on Freq and
+  Q, which can now be mapped separately. Presets that used Map mode sound the
+  same.
+- Vel Curve is now picked from the curve icon in front of Vel Scale and has a
+  Log option, which gives each bounce an equal step down. New sound slots
+  start on Log; existing presets keep their curve.
+- The Basic VOLUME knob no longer lights the BASIC MODS chip, since its level
+  now shows in the output strip.
+
+### Fixed
+
+- Granular: grains that reached the end of the source file could click.
+- Sharply bent MSEG segments were drawn with a flat edge at the bend.
+- The sandbox could look slightly blurred at some window sizes.
+
 ## 1.1.2 - 2026-11-04
 
 ### Fixed
